@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GeoBeat Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #111827;
+      --panel: #172033;
+      --text: #f8fafc;
+      --muted: #cbd5e1;
+      --accent: #7dd3fc;
+      --line: rgba(255,255,255,.14);
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7;
+      background: radial-gradient(circle at top left, #243b55, var(--bg) 46%);
+      color: var(--text);
+    }
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+    header, section {
+      background: rgba(23, 32, 51, .86);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+      margin: 0 0 14px;
+    }
+    p, li {
+      color: var(--muted);
+    }
+    a {
+      color: var(--accent);
+    }
+    .meta {
+      margin: 0;
+      color: var(--muted);
+    }
+    .lang {
+      margin-top: 28px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>GeoBeat Support</h1>
+      <p class="meta">Location-based music recommendations for Apple Music.</p>
+    </header>
+
+    <section>
+      <h2>日本語</h2>
+      <h3>よくある質問</h3>
+      <p><strong>再生できない場合</strong><br>アプリ内で再生するには、Apple Musicへのアクセス許可とApple Musicの有効な利用環境が必要です。利用できない場合は、Apple Musicで曲を開いて確認できます。</p>
+      <p><strong>位置情報が使えない場合</strong><br>iPhoneの「設定」アプリで、GeoBeatの位置情報アクセスが許可されているか確認してください。自宅など別の場所で試したい場合は、アプリ内の場所シミュレート機能を利用できます。</p>
+      <p><strong>選曲が場所と合わない場合</strong><br>GeoBeatは、町名、市区町村名、都道府県名などの地域情報をもとにApple Musicのカタログを検索します。気に入らない曲が流れた場合は、次の候補を再生できます。</p>
+
+      <h3>お問い合わせ</h3>
+      <p>不具合や要望は、<a href="https://github.com/hodade/GeoBeat/issues">GitHub Issues</a> からお知らせください。</p>
+      <p><a href="privacy-policy.html">プライバシーポリシー</a></p>
+
+      <div class="lang">
+        <h2>English</h2>
+        <h3>FAQ</h3>
+        <p><strong>If playback does not work</strong><br>In-app playback requires Apple Music permission and an active Apple Music playback environment. If playback is not available, you can open the song in Apple Music.</p>
+        <p><strong>If location does not work</strong><br>Open the iPhone Settings app and make sure location access is allowed for GeoBeat. You can also use the location simulation feature to try music for another place.</p>
+        <p><strong>If the recommendation does not match the place</strong><br>GeoBeat searches the Apple Music catalog using area information such as neighborhood, city, and prefecture. If you do not like the current song, play the next candidate.</p>
+
+        <h3>Contact</h3>
+        <p>Please report issues or requests through <a href="https://github.com/hodade/GeoBeat/issues">GitHub Issues</a>.</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
